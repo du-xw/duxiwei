@@ -1,3 +1,3 @@
-$(warning "duxiwei 编译到了vendor目录")
+$(warning "duxiwei build vendor dir")
 
-PRODUCT_PACKAGES += factoryTest
+PRODUCT_PACKAGES += Mytest
