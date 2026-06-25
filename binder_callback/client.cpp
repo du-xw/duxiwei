@@ -56,9 +56,9 @@ protected:
       str_1 = data.readString8();
       str_2 = data.readString8();
       str_3 = data.readString8();
-      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_1.string());
-      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_2.string());
-      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_3.string());
+      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_1.c_str());
+      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_2.c_str());
+      ALOGE("Client ------------------------------ %d, read String = %s",__LINE__,str_3.c_str());
 
       callbackFunction(1234567);
       break;
