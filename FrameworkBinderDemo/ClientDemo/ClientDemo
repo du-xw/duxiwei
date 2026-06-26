@@ -1,7 +1,6 @@
 # Script to start "am" on the device, which has a very rudimentary
 # shell.
 #
-base=/system
+base=/system_ext
 export CLASSPATH=$base/framework/ClientDemo.jar
 exec app_process $base/bin com.test.frameworkBinder.ClientDemo "$@"
-

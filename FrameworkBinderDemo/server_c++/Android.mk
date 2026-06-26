@@ -10,5 +10,6 @@ LOCAL_SHARED_LIBRARIES := liblog \
     libhardware
 
 LOCAL_MODULE:= binder_for_java
+LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)
